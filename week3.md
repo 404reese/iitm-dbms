@@ -9,7 +9,7 @@ Q004flisdb: Write an SQL statement to find the team ID of teams that do not have
 ```
 SELECT team_id
 FROM teams
-WHERE team_id NOT IN (SELECT team_id FROM players WHERE jersey_no IN (77,88));
+WHERE team_id NOT IN (SELECT DISTINCT team_id FROM players WHERE jersey_no IN (77, 88));
 ```
 
 

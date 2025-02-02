@@ -35,5 +35,10 @@ Q002lisdb: Write an SQL statement to find the book titles and the number of copi
 
 ### Solution:
 ```
-SELECT player_name FROM player WHERE team_name = 'All Stars' ORDER BY player_dob LIMIT 1;
+SELECT title, COUNT(*) AS copy_count
+FROM book_catalogue
+JOIN book_copies
+ON book_catalogue.ISBN_no = book_copies.ISBN_no
+WHERE title LIKE '%Management%'
+GROUP BY title;
 ```

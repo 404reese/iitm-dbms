@@ -26,3 +26,14 @@ JOIN members m ON s.roll_no = m.roll_no
 JOIN book_issue bi ON m.member_no = bi.member_no
 WHERE bi.doi = '2021-08-02';
 ```
+
+
+## Question 5
+Q002lisdb: Write an SQL statement to find the book titles and the number of copies of the books which has the word 'Management' in their title.[Database: LIS] lisdb:
+
+![question 5](questions/4.png)
+
+### Solution:
+```
+SELECT player_name FROM player WHERE team_name = 'All Stars' ORDER BY player_dob LIMIT 1;
+```

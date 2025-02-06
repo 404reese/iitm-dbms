@@ -1,4 +1,5 @@
-
+## Question 3
+Q004flisdb: Write an SQL statement to find the team ID of teams that do not have players with jersey numbers (jersey_no) 77 or 88. flisdb:
 
 ## Question 3
 Q004flisdb: Write an SQL statement to find the team ID of teams that do not have players with jersey numbers (jersey_no) 77 or 88. flisdb:
